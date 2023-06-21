@@ -13,6 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @ToString
 @Document(collation = "Employee")
 public class Employee {
+
     @Id
     private Integer employeeId;
     private String employeeName;
